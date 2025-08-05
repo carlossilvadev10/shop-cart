@@ -28,9 +28,9 @@ Más que una simple tienda en línea, **Shop Cart** busca ser una herramienta **
 
 ## 🛠️ Tecnologías Utilizadas 👨‍💻
 
-| HTML | CSS | JavaScript | React | Tailwind CSS | Vite | Node.js | Firebase | ESLint |
-|------|-----|------------|-------|--------------|------|---------|----------|--------|
-| ![HTML](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg) | ![CSS](https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg) | ![JavaScript](https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg) | ![React](https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg) | ![TailwindCSS](https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg) | ![Vite](https://raw.githubusercontent.com/devicons/devicon/master/icons/vite/vite-original.svg) | ![Node.js](https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg) | ![Firebase](https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg) | ![ESLint](https://raw.githubusercontent.com/devicons/devicon/master/icons/eslint/eslint-original.svg) |
+| HTML | CSS | JavaScript | React | Bootstrap | Vite | Node.js | Firebase | ESLint |
+|------|-----|------------|-------|-----------|------|---------|----------|--------|
+| ![HTML](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg) | ![CSS](https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg) | ![JavaScript](https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg) | ![React](https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg) | ![Bootstrap](https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg) | ![Vite](https://raw.githubusercontent.com/devicons/devicon/master/icons/vite/vite-original.svg) | ![Node.js](https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg) | ![Firebase](https://www.gstatic.com/mobilesdk/160503_mobilesdk/logo/2x/firebase_28dp.png) | ![ESLint](https://raw.githubusercontent.com/devicons/devicon/master/icons/eslint/eslint-original.svg) |
 
 ---
 
