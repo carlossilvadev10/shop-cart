@@ -2,8 +2,8 @@
 
 [![SHOP CART](./src/assets/image-preview.png)](https://shop-cart.netlify.app/)
 
-**SHOP CART** es tu plataforma de compras en línea moderna, diseñada para ofrecer una experiencia rápida, intuitiva y segura. Desde productos para el hogar hasta artículos tecnológicos, aquí encontrarás una gran variedad de opciones cuidadosamente organizadas para facilitar tu compra.
-Con un diseño limpio y adaptable, **Shop Cart** busca que cada usuario disfrute al máximo de su navegación, sin importar el dispositivo que use.
+**SHOP CART** es tu plataforma de compras en línea moderna, enfocada en productos deportivos y accesorios, con una selección complementaria de artículos para el hogar que aportan comodidad y estilo a tu vida diaria. Aquí encontrarás opciones cuidadosamente organizadas para que tu compra sea sencilla y agradable.
+Con un diseño limpio y adaptable pensado para todo tipo de dispositivos, **Shop Cart** busca que cada usuario disfrute al máximo de su navegación, combinando rapidez, intuición y atractivo visual en cada visita.
 
 ---
 
