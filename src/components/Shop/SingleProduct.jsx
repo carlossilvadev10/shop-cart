@@ -7,13 +7,14 @@ import ProductDisplay from "./ProductDisplay";
 import Review from "./Review";
 import PopularPost from "./PopularPost";
 import Tags from "./Tags";
+import productsData from "../../products.json";
 import "swiper/css";
 
 const SingleProduct = () => {
     const [product, setProduct] = useState([]);
     const {id} = useParams();
     useEffect(() => {
-        fetch("/src/products.json").then(res => res.json()).then(data => setProduct(data));
+        setProduct(productsData);
     }, []);
     const result = product.filter((product) => product.id === id);
 
@@ -30,7 +31,7 @@ const SingleProduct = () => {
                                             <div className = "col-md-6 col-12">
                                                 <div className = "product-thumb">
                                                     <div className = "swiper-container pro-single-top">
-                                                        <Swiper spaceBetween = {30} slidesPerView = {1} loop = {"true"} autoplay = {{ delay: 2000, disableOnInteraction: false }} modules = {[Autoplay]} navigation = {{ prevEl: ".pro-single-prev", nextEl: ".pro-single-next" }} className = "mySwiper">
+                                                        <Swiper spaceBetween = {30} slidesPerView = {1} loop = {result.length > 1} autoplay = {{ delay: 2000, disableOnInteraction: false }} modules = {[Autoplay]} navigation = {{ prevEl: ".pro-single-prev", nextEl: ".pro-single-next" }} className = "mySwiper">
                                                             {
                                                                 result.map((item, i) => (
                                                                     <SwiperSlide key = {i}>
