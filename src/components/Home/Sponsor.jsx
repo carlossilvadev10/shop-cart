@@ -12,22 +12,22 @@ import Sponsor06 from "../../assets/images/sponsor/06.png"
 
 const sponsorList = [
     {
-        imgUrl: {Sponsor01},
+        imgUrl: Sponsor01,
     },
     {
-        imgUrl: {Sponsor02},
+        imgUrl: Sponsor02,
     },
     {
-        imgUrl: {Sponsor03},
+        imgUrl: Sponsor03,
     },
     {
-        imgUrl: {Sponsor04},
+        imgUrl: Sponsor04,
     },
     {
-        imgUrl: {Sponsor05},
+        imgUrl: Sponsor05,
     },
     {
-        imgUrl: {Sponsor06},
+        imgUrl: Sponsor06,
     },
 ];
 

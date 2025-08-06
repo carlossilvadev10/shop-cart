@@ -1,7 +1,7 @@
 import React from "react";
 import PageHeader from "../Shared/PageHeader";
-import AboutImg01 from "../../assets/images/about/01.jpg";
-import AboutImg02 from "../../assets/images/about/02.jpg";
+import About01 from "../../assets/images/about/01.jpg";
+import About02 from "../../assets/images/about/02.jpg";
 import Icon01 from "../../assets/images/about/icon/01.jpg";
 import Icon02 from "../../assets/images/about/icon/02.jpg";
 import Icon03 from "../../assets/images/about/icon/03.jpg";
@@ -46,10 +46,10 @@ const About = () => {
                         <div className = "col">
                             <div className = "about-left">
                                 <div className = "about-thumb">
-                                    <img src = "/src/assets/images/about/01.jpg" alt = "about-01" />
+                                    <img src = {About01} alt = "about-01" />
                                 </div>
                                 <div className = "abs-thumb">
-                                    <img src = "/src/assets/images/about/02.jpg" alt = "about-02" />
+                                    <img src = {About02} alt = "about-02" />
                                 </div>
                                 <div className = "about-left-content">
                                     <h3>{year}</h3>

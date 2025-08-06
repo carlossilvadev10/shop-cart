@@ -9,28 +9,28 @@ const title = "Publicaciones del momento";
 const postList = [
     {
         id: 1,
-        imgUrl: {Blog10},
+        imgUrl: Blog10,
         imgAlt: "Chica leyendo",
         title: "Consejos de lectura para relajarte",
         date: "20 de julio de 2025"
     },
     {
         id: 2,
-        imgUrl: {Blog11},
+        imgUrl: Blog11,
         imgAlt: "Joven con laptop",
         title: "Cómo comprar en línea de forma segura",
         date: "26 de julio de 2025"
     },
     {
         id: 3,
-        imgUrl: {Blog12},
+        imgUrl: Blog12,
         imgAlt: "Dos chicas viendo una laptop",
         title: "Tendencias en compras online 2022",
         date: "30 de julio de 2025"
     },
     {
         id: 4,
-        imgUrl: {Blog09},
+        imgUrl: Blog09,
         imgAlt: "Chica escribiendo en laptop",
         title: "Tips para organizar tu lista de compras",
         date: "05 de agosto de 2025"

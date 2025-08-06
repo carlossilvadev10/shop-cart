@@ -17,37 +17,37 @@ const btnText = "Empezar ahora";
 
 const categoryList = [
     {
-        imgUrl: {Category01},
+        imgUrl: Category01,
         imgAlt: "category rajibraj91 rajibraj",
         iconName: "icofont-brand-windows",
         title: "Cámaras DSLR",
     },
     {
-        imgUrl: {Category02},
+        imgUrl: Category02,
         imgAlt: "category rajibraj91 rajibraj",
         iconName: "icofont-brand-windows",
         title: "Zapatos / Zapatillas",
     },
     {
-        imgUrl: {Category03},
+        imgUrl: Category03,
         imgAlt: "category rajibraj91 rajibraj",
         iconName: "icofont-brand-windows",
         title: "Fotografía",
     },
     {
-        imgUrl: {Category04},
+        imgUrl: Category04,
         imgAlt: "category rajibraj91 rajibraj",
         iconName: "icofont-brand-windows",
         title: "Ropa formal",
     },
     {
-        imgUrl: {Category05},
+        imgUrl: Category05,
         imgAlt: "category rajibraj91 rajibraj",
         iconName: "icofont-brand-windows",
         title: "Bolsos coloridos",
     },
     {
-        imgUrl: {Category06},
+        imgUrl: Category06,
         imgAlt: "category rajibraj91 rajibraj",
         iconName: "icofont-brand-windows",
         title: "Decoración para el hogar",

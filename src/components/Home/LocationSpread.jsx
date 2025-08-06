@@ -10,37 +10,37 @@ const title = (
 const description = "Compra productos desde cualquier dispositivo con nuestra app y disfruta de tu tiempo libre. Descárgala, instálala y empieza a comprar";
 const clientsList = [
     {
-        imgUrl: {Avatar},
+        imgUrl: Avatar,
         imgAlt: "education thumb rajibraj91 rajibraj",
         text: "Únete a nosotros",
     },
     {
-        imgUrl: {Avatar},
+        imgUrl: Avatar,
         imgAlt: "education thumb rajibraj91 rajibraj",
         text: "Únete a nosotros",
     },
     {
-        imgUrl: {Avatar},
+        imgUrl: Avatar,
         imgAlt: "education thumb rajibraj91 rajibraj",
         text: "Únete a nosotros",
     },
     {
-        imgUrl: {Avatar},
+        imgUrl: Avatar,
         imgAlt: "education thumb rajibraj91 rajibraj",
         text: "Únete a nosotros",
     },
     {
-        imgUrl: {Avatar},
+        imgUrl: Avatar,
         imgAlt: "education thumb rajibraj91 rajibraj",
         text: "Únete a nosotros",
     },
     {
-        imgUrl: {Avatar},
+        imgUrl: Avatar,
         imgAlt: "education thumb rajibraj91 rajibraj",
         text: "Únete a nosotros",
     },
     {
-        imgUrl: {Avatar},
+        imgUrl: Avatar,
         imgAlt: "education thumb rajibraj91 rajibraj",
         text: "Únete a nosotros",
     },
