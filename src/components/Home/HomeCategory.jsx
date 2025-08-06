@@ -1,5 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Category01 from "../../assets/images/category/01.jpg";
+import Category02 from "../../assets/images/category/02.jpg";
+import Category03 from "../../assets/images/category/03.jpg";
+import Category04 from "../../assets/images/category/04.jpg";
+import Category05 from "../../assets/images/category/05.jpg";
+import Category06 from "../../assets/images/category/06.jpg";
 
 const subTitle = "Explora productos para todos los gustos";
 const title = (
@@ -11,37 +17,37 @@ const btnText = "Empezar ahora";
 
 const categoryList = [
     {
-        imgUrl: "src/assets/images/category/01.jpg",
+        imgUrl: {Category01},
         imgAlt: "category rajibraj91 rajibraj",
         iconName: "icofont-brand-windows",
         title: "Cámaras DSLR",
     },
     {
-        imgUrl: "src/assets/images/category/02.jpg",
+        imgUrl: {Category02},
         imgAlt: "category rajibraj91 rajibraj",
         iconName: "icofont-brand-windows",
         title: "Zapatos / Zapatillas",
     },
     {
-        imgUrl: "src/assets/images/category/03.jpg",
+        imgUrl: {Category03},
         imgAlt: "category rajibraj91 rajibraj",
         iconName: "icofont-brand-windows",
         title: "Fotografía",
     },
     {
-        imgUrl: "src/assets/images/category/04.jpg",
+        imgUrl: {Category04},
         imgAlt: "category rajibraj91 rajibraj",
         iconName: "icofont-brand-windows",
         title: "Ropa formal",
     },
     {
-        imgUrl: "src/assets/images/category/05.jpg",
+        imgUrl: {Category05},
         imgAlt: "category rajibraj91 rajibraj",
         iconName: "icofont-brand-windows",
         title: "Bolsos coloridos",
     },
     {
-        imgUrl: "src/assets/images/category/06.jpg",
+        imgUrl: {Category06},
         imgAlt: "category rajibraj91 rajibraj",
         iconName: "icofont-brand-windows",
         title: "Decoración para el hogar",

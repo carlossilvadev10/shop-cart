@@ -1,5 +1,10 @@
 import React from "react";
 import PageHeader from "../Shared/PageHeader";
+import AboutImg01 from "../../assets/images/about/01.jpg";
+import AboutImg02 from "../../assets/images/about/02.jpg";
+import Icon01 from "../../assets/images/about/icon/01.jpg";
+import Icon02 from "../../assets/images/about/icon/02.jpg";
+import Icon03 from "../../assets/images/about/icon/03.jpg";
 
 const subTitle = "Sobre nuestra marca";
 const title = "Servicios de calidad y Mejores experiencias";
@@ -9,23 +14,26 @@ const experience = "Años de experiencia";
 
 const aboutList = [
     {
-        imgUrl: "/src/assets/images/about/icon/01.jpg",
+        imgUrl: Icon01,
         imgAlt: "ícono acerca de rajibraj91 rajibraj",
         title: "Instructores calificados",
-        description: "Aprende de expertos con experiencia real en la industria que te guiarán paso a paso en tu crecimiento profesional.",
+        description:
+        "Aprende de expertos con experiencia real en la industria que te guiarán paso a paso en tu crecimiento profesional.",
     },
     {
-        imgUrl: "/src/assets/images/about/icon/02.jpg",
+        imgUrl: Icon02,
         imgAlt: "ícono acerca de rajibraj91 rajibraj",
         title: "Obtén certificación",
-        description: "Valida tus conocimientos con certificados reconocidos que impulsarán tu perfil en el mercado laboral.",
+        description:
+        "Valida tus conocimientos con certificados reconocidos que impulsarán tu perfil en el mercado laboral.",
     },
     {
-        imgUrl: "/src/assets/images/about/icon/03.jpg",
+        imgUrl: Icon03,
         imgAlt: "ícono acerca de rajibraj91 rajibraj",
         title: "Clases en línea",
-        description: "Accede a tus cursos desde cualquier lugar y a cualquier hora, adaptándolos a tu ritmo y estilo de vida.",
-    }
+        description:
+        "Accede a tus cursos desde cualquier lugar y a cualquier hora, adaptándolos a tu ritmo y estilo de vida.",
+    },
 ];
 
 const About = () => {

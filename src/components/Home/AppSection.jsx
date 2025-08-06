@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import App01 from "../../assets/images/app/01.jpg";
+import App02 from "../../assets/images/app/02.jpg";
 
 const btnText = "Regístrate gratis";
 const title = (
@@ -23,10 +25,10 @@ const AppSection = () => {
                 <div className = "section-wrapper">
                     <ul className = "lab-ul">
                         <li>
-                            <a href = "#"><img src = "/src/assets/images/app/01.jpg" alt = "app-01" /></a>
+                            <a href = "#"><img src = {App01} alt = "app-01" /></a>
                         </li>
                         <li>
-                            <a href = "#"><img src = "/src/assets/images/app/02.jpg" alt = "app-02" /></a>
+                            <a href = "#"><img src = {App02} alt = "app-02" /></a>
                         </li>
                     </ul>
                 </div>

@@ -1,6 +1,10 @@
 import React from "react";
 import PageHeader from "../Shared/PageHeader";
 import GoogleMap from "../Shared/GoogleMap";
+import Icon01 from "../../assets/images/icon/01.png";
+import Icon02 from "../../assets/images/icon/02.png";
+import Icon03 from "../../assets/images/icon/03.png";
+import Icon04 from "../../assets/images/icon/04.png";
 
 const subTitle = "Ponte en contacto con nosotros";
 const title = "¡Siempre estamos encantados de saber de ti!";
@@ -10,25 +14,25 @@ const btnText = "Enviar mensaje";
 
 const contactList = [
     {
-        imgUrl: "/src/assets/images/icon/01.png",
+        imgUrl: Icon01,
         imgAlt: "ícono de contacto",
         title: "Dirección de oficina",
         description: "Av. Las Delicias 456, Huacho",
     },
     {
-        imgUrl: "/src/assets/images/icon/02.png",
+        imgUrl: Icon02,
         imgAlt: "ícono de contacto",
         title: "Número de teléfono",
         description: "+51 987 654 321",
     },
     {
-        imgUrl: "/src/assets/images/icon/03.png",
+        imgUrl: Icon03,
         imgAlt: "ícono de contacto",
         title: "Enviar correo",
         description: "admin@shopcart.com",
     },
     {
-        imgUrl: "/src/assets/images/icon/04.png",
+        imgUrl: Icon04,
         imgAlt: "ícono de contacto",
         title: "Nuestro sitio web",
         description: "www.shopcart.com",

@@ -1,81 +1,98 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Rating from "../Shared/Rating";
+import Prod01 from "../../assets/images/categoryTab/01.jpg";
+import Prod02 from "../../assets/images/categoryTab/02.jpg";
+import Prod03 from "../../assets/images/categoryTab/03.jpg";
+import Prod04 from "../../assets/images/categoryTab/04.jpg";
+import Prod05 from "../../assets/images/categoryTab/05.jpg";
+import Prod06 from "../../assets/images/categoryTab/06.jpg";
+import Prod07 from "../../assets/images/categoryTab/07.jpg";
+import Prod08 from "../../assets/images/categoryTab/08.jpg";
+import BrandApple from "../../assets/images/categoryTab/brand/apple.png";
+import Author01 from "../../assets/images/course/author/01.jpg";
+import Author02 from "../../assets/images/course/author/02.jpg";
+import Author04 from "../../assets/images/course/author/04.jpg";
+import Author05 from "../../assets/images/course/author/05.jpg";
+import Author06 from "../../assets/images/course/author/06.jpg";
+import Shape01 from "../../assets/images/shape-img/icon/01.png";
+import Shape02 from "../../assets/images/shape-img/icon/02.png";
 
 const title = (
     <h2 className = "text-capitalize title">
         Descubre nuestros productos
     </h2>
 );
+
 const productData = [
     {
-        imgUrl: "src/assets/images/categoryTab/01.jpg",
+        imgUrl: Prod01,
         category: "Zapatillas",
         title: "Nike Premier X",
-        author: "assets/images/course/author/01.jpg",
+        author: Author01,
         brand: "Nike",
         price: "$199.00",
         id: 1,
     },
     {
-        imgUrl: "src/assets/images/categoryTab/02.jpg",
+        imgUrl: Prod02,
         category: "Bolsos",
         title: "Aesthetic Bags",
-        author: "assets/images/course/author/02.jpg",
+        author: Author02,
         brand: "D&J Bags",
         price: "$149.00",
         id: 2,
     },
     {
-        imgUrl: "src/assets/images/categoryTab/03.jpg",
+        imgUrl: Prod03,
         category: "Celulares",
         title: "iPhone 12",
-        author: "src/assets/images/categoryTab/brand/apple.png",
+        author: BrandApple,
         brand: "Apple",
         price: "$399.00",
         id: 3,
     },
     {
-        imgUrl: "src/assets/images/categoryTab/04.jpg",
+        imgUrl: Prod04,
         category: "Bolsos",
         title: "Hiking Bag 15 Nh100",
-        author: "assets/images/course/author/04.jpg",
+        author: Author04,
         brand: "Gucci",
         price: "$299.00",
         id: 4,
     },
     {
-        imgUrl: "src/assets/images/categoryTab/05.jpg",
+        imgUrl: Prod05,
         category: "Zapatillas",
         title: "Outdoor Sports Shoes",
-        author: "assets/images/course/author/05.jpg",
+        author: Author05,
         brand: "Nike",
         price: "$199.00",
         id: 5,
     },
     {
-        imgUrl: "src/assets/images/categoryTab/06.jpg",
+        imgUrl: Prod06,
         category: "Belleza",
         title: "COSRX Luminique Mist",
-        author: "assets/images/course/author/06.jpg",
+        author: Author06,
         brand: "Zara",
         price: "$99.00",
         id: 6,
     },
     {
-        imgUrl: "src/assets/images/categoryTab/07.jpg",
+        imgUrl: Prod07,
         category: "Bolsos",
         title: "Classic Look Chanel Bag",
-        author: "assets/images/course/author/01.jpg",
+        author: Author01,
         brand: "Gucci",
         price: "$149.00",
         id: 7,
     },
     {
-        imgUrl: "src/assets/images/categoryTab/08.jpg",
+        imgUrl: Prod08,
         category: "Zapatillas",
         title: "BoldSup Sneakers",
-        author: "assets/images/course/author/02.jpg",
+        author: Author02,
         brand: "Bata",
         price: "$199.00",
         id: 8,
@@ -97,10 +114,10 @@ const CategoryShowCase = () => {
         <div className = "course-section style-3 padding-tb">
             {/* Shapes */}
             <div className = "course-shape one">
-                <img src = "/src/assets/images/shape-img/icon/01.png" alt = "shape-img-icon-1" />
+                <img src = {Shape01} alt = "shape-img-icon-1" />
             </div>
             <div className = "course-shape two">
-                <img src = "/src/assets/images/shape-img/icon/02.png" alt = "shape-img-icon-2" />
+                <img src = {Shape02} alt = "shape-img-icon-2" />
             </div>
             {/* Main section */}
             <div className = "container">

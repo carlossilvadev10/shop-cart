@@ -4,6 +4,8 @@ import PageHeader from "../Shared/PageHeader.jsx";
 import blogList from "../../utils/blogdata.js";
 import PopularPost from "../Shop/PopularPost.jsx";
 import Tags from "../Shop/Tags.jsx";
+import BlogSingle01 from "../../assets/images/blog/single/01.jpg";
+import BlogSingle02 from "../../assets/images/blog/single/02.jpg";
 
 const socialList = [
     {
@@ -91,12 +93,12 @@ const SingleBlog = () => {
                                                                     <p style = {{ textAlign: "justify" }}>
                                                                         {item.detailedDescription.part2}
                                                                     </p>
-                                                                    <img src = "/src/assets/images/blog/single/01.jpg" alt = "blog-single-01" />
+                                                                    <img src = {BlogSingle01} alt = "blog-single-01" />
                                                                     <p style = {{ textAlign: "justify" }}>
                                                                         {item.detailedDescription.part3}
                                                                     </p>
                                                                     <div className = "video-thumb">
-                                                                        <img src = "/src/assets/images/blog/single/02.jpg" alt = "blog-single-02" />
+                                                                        <img src = {BlogSingle02} alt = "blog-single-02" />
                                                                         <a href = "#" target = "_blank" className = "video-button popup">
                                                                             <i className = "icofont-ui-play"></i>
                                                                         </a>

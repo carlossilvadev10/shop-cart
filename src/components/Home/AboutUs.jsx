@@ -1,6 +1,7 @@
 import React from "react";
 import CountUp from "react-countup";
 import { Link } from "react-router-dom";
+import Instructor01 from "../../assets/images/instructor/01.png";
 
 const subTitle = "¿Por qué elegirnos?";
 const title = "Conviértete en Vendedor";
@@ -65,7 +66,7 @@ const AboutUs = () => {
             </div>
             <div className = "col">
               <div className = "instructor-thumb">
-                <img src = "/src/assets/images/instructor/01.png" alt = "instructor" />
+                <img src = {Instructor01} alt = "instructor" />
               </div>
             </div>
           </div>

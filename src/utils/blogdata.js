@@ -1,7 +1,17 @@
+import BlogImg01 from "../assets/images/blog/01.jpg";
+import BlogImg02 from "../assets/images/blog/02.jpg";
+import BlogImg03 from "../assets/images/blog/03.jpg";
+import BlogImg04 from "../assets/images/blog/04.jpg";
+import BlogImg05 from "../assets/images/blog/05.jpg";
+import BlogImg06 from "../assets/images/blog/06.jpg";
+import BlogImg07 from "../assets/images/blog/07.jpg";
+import BlogImg08 from "../assets/images/blog/08.jpg";
+import BlogImg09 from "../assets/images/blog/09.jpg";
+
 const blogList = [
     {
         id: 1,
-        imgUrl: "/src/assets/images/blog/01.jpg",
+        imgUrl: BlogImg01,
         imgAlt: "Blog Thumb",
         title: "Cómo mejorar la experiencia del cliente en ecommerce",
         description: "Explora estrategias efectivas para aumentar la satisfacción del cliente en tiendas en línea a través de UX, atención personalizada y seguimiento postventa.",
@@ -27,7 +37,7 @@ const blogList = [
     },
     {
         id: 2,
-        imgUrl: "/src/assets/images/blog/02.jpg",
+        imgUrl: BlogImg02,
         imgAlt: "Blog Thumb",
         title: "Tendencias en diseño web para marcas digitales",
         description: "Descubre las últimas tendencias de diseño web centradas en la conversión, velocidad, y compatibilidad móvil en tiendas ecommerce.",
@@ -53,7 +63,7 @@ const blogList = [
     },
     {
         id: 3,
-        imgUrl: "/src/assets/images/blog/03.jpg",
+        imgUrl: BlogImg03,
         imgAlt: "Blog Thumb",
         title: "La importancia del SEO en tu tienda online",
         description: "Aprende cómo una correcta estrategia SEO puede posicionar tus productos y atraer tráfico orgánico de calidad a tu ecommerce.",
@@ -79,7 +89,7 @@ const blogList = [
     },
     {
         id: 4,
-        imgUrl: "/src/assets/images/blog/04.jpg",
+        imgUrl: BlogImg04,
         imgAlt: "Blog Thumb",
         title: "Redes sociales: clave para escalar tu negocio",
         description: "Descubre cómo aprovechar Facebook, Instagram y TikTok para promocionar tus productos y construir comunidad.",
@@ -105,7 +115,7 @@ const blogList = [
     },
     {
         id: 5,
-        imgUrl: "/src/assets/images/blog/05.jpg",
+        imgUrl: BlogImg05,
         imgAlt: "Blog Thumb",
         title: "Cursos online: cómo elegir la mejor plataforma",
         description: "Conoce qué factores debes considerar al elegir una plataforma para vender cursos digitales y maximizar tus ingresos.",
@@ -131,7 +141,7 @@ const blogList = [
     },
     {
         id: 6,
-        imgUrl: "/src/assets/images/blog/06.jpg",
+        imgUrl: BlogImg06,
         imgAlt: "Blog Thumb",
         title: "Proyectos reales: aprende haciendo en ecommerce",
         description: "La mejor manera de dominar el comercio electrónico es a través de la experiencia práctica. ¡Lanza tu propia tienda!",
@@ -157,7 +167,7 @@ const blogList = [
     },
     {
         id: 7,
-        imgUrl: "/src/assets/images/blog/07.jpg",
+        imgUrl: BlogImg07,
         imgAlt: "Blog Thumb",
         title: "Motivación interna: motor del emprendimiento",
         description: "Más allá de las ganancias, la motivación personal es clave para mantener tu tienda activa y creciendo a largo plazo.",
@@ -183,7 +193,7 @@ const blogList = [
     },
     {
         id: 8,
-        imgUrl: "/src/assets/images/blog/08.jpg",
+        imgUrl: BlogImg08,
         imgAlt: "Blog Thumb",
         title: "Alternativas modernas a la calificación tradicional",
         description: "La evaluación por proyectos y retos reales se posiciona como la mejor opción para medir el progreso del aprendizaje online.",
@@ -209,7 +219,7 @@ const blogList = [
     },
     {
         id: 9,
-        imgUrl: "/src/assets/images/blog/09.jpg",
+        imgUrl: BlogImg09,
         imgAlt: "Blog Thumb",
         title: "Aprendizaje global: oportunidades y desafíos",
         description: "Analizamos cómo la digitalización permite una educación sin fronteras y qué retos enfrenta en su implementación.",

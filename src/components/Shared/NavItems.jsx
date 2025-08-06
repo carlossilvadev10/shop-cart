@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/images/logo/logo.png"
 import { AuthContext } from "../../contexts/AuthProvider";
+import Logo from "../../assets/images/logo/logo.png"
 
 const NavItems = () => {
     const [menuToggle, setMenuToggle] = useState(false);
