@@ -4,6 +4,8 @@ import { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import "./../../assets/css/modal.css";
+import Visa from "../../assets/images/modal/visa.png"
+import Paypal from "../../assets/images/modal/paypal.png"
 
 const CheckOutPage = () => {
     const [show, setShow] = useState(false);
@@ -104,12 +106,12 @@ const CheckOutPage = () => {
                                 <ul className = "nav nav-tabs" role = "tablist" id = "myTab">
                                     <li className = "nav-item" role = "presentation">
                                         <a href = "#visa" data-toggle = "tab" role = "tab" aria-controls = "visa" aria-selected = {activeTab === "visa"} className = {`nav-link d-flex justify-content-center ${activeTab === "visa" ? "active" : ""}`} id = "visa-tab" onClick = {() => handleTabChange("visa")}>
-                                            <img src = "/src/assets/images/modal/visa.png" alt = "visa" width = {80} />
+                                            <img src = {Visa} alt = "visa" width = {80} />
                                         </a>
                                     </li>
                                     <li className = "nav-item" role = "presentation">
                                         <a href = "#paypal" data-toggle = "tab" role = "tab" aria-controls = "paypal" aria-selected = {activeTab === "paypal"} className = {`nav-link d-flex justify-content-center ${activeTab === "paypal" ? "active" : ""}`} id = "paypal-tab" onClick = {() => handleTabChange("paypal")}>
-                                            <img src = "/src/assets/images/modal/paypal.png" alt = "visa" width = {90} />
+                                            <img src = {Paypal} alt = "visa" width = {90} />
                                         </a>
                                     </li>
                                 </ul>

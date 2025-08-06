@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import PageHeader from "../Shared/PageHeader";
 import { Link } from "react-router-dom";
-import deleteImgUrl from "../../assets/images/shop/delete.png";
 import CheckOutPage from "./CheckOutPage";
+import deleteImgUrl from "../../assets/images/shop/delete.png";
 
 const CartPage = () => {
     const [cartItems, setCartItems] = useState([]);

@@ -28,9 +28,9 @@ Más que una simple tienda en línea, **Shop Cart** busca ser una herramienta **
 
 ## 🛠️ Tecnologías Utilizadas 👨‍💻
 
-| HTML | CSS | JavaScript | React | Bootstrap | Vite | Node.js | Firebase | ESLint |
-|------|-----|------------|-------|-----------|------|---------|----------|--------|
-| ![HTML](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg) | ![CSS](https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg) | ![JavaScript](https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg) | ![React](https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg) | ![Bootstrap](https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg) | ![Vite](https://raw.githubusercontent.com/devicons/devicon/master/icons/vite/vite-original.svg) | ![Node.js](https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg) | ![Firebase](https://www.gstatic.com/mobilesdk/160503_mobilesdk/logo/2x/firebase_28dp.png) | ![ESLint](https://raw.githubusercontent.com/devicons/devicon/master/icons/eslint/eslint-original.svg) |
+| HTML | CSS | JavaScript | React | Bootstrap | Sass | Vite | Node.js | Firebase | ESLint |
+|------|-----|------------|-------|-----------|------|------|---------|----------|--------|
+| ![HTML](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg) | ![CSS](https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg) | ![JavaScript](https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg) | ![React](https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg) | ![Bootstrap](https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg) | ![Sass](https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg) | ![Vite](https://raw.githubusercontent.com/devicons/devicon/master/icons/vitejs/vitejs-original.svg) | ![Node.js](https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg) | ![Firebase](https://www.gstatic.com/mobilesdk/160503_mobilesdk/logo/2x/firebase_28dp.png) | ![ESLint](https://raw.githubusercontent.com/devicons/devicon/master/icons/eslint/eslint-original.svg) |
 
 ---
 

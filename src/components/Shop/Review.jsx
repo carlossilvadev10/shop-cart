@@ -1,31 +1,35 @@
 import React, { useState } from "react";
 import Rating from "../Shared/Rating";
+import Instructor01 from "../../assets/images/instructor/01.jpg";
+import Instructor02 from "../../assets/images/instructor/02.jpg";
+import Instructor03 from "../../assets/images/instructor/03.jpg";
+import Instructor04 from "../../assets/images/instructor/04.jpg";
 
 const reviewTitle = "Agregar una reseña";
 let reviewList = [
     {
-        imgUrl: "/src/assets/images/instructor/01.jpg",
+        imgUrl: {Instructor01},
         imgAlt: "Miniatura del cliente",
         name: "Gael Jimenez",
         date: "Publicado el 10 de julio de 2025 a las 06:57 am",
         desc: "Este producto superó mis expectativas. La calidad y el diseño son excepcionales, sin duda una excelente inversión para quienes valoran la innovación.",
     },
     {
-        imgUrl: "/src/assets/images/instructor/02.jpg",
+        imgUrl: {Instructor02},
         imgAlt: "Miniatura del cliente",
         name: "Morgana Castillo",
         date: "Publicado el 17 de julio de 2025 a las 08:43 am",
         desc: "Me encantó la funcionalidad y el acabado. Se nota que hubo atención al detalle. Lo recomiendo completamente para uso diario.",
     },
     {
-        imgUrl: "/src/assets/images/instructor/03.jpg",
+        imgUrl: {Instructor03},
         imgAlt: "Miniatura del cliente",
         name: "Teófilo Rodriguez",
         date: "Publicado el 26 de julio de 2025 a las 04:26 pm",
         desc: "Buen producto, cumple con lo que promete. El envío fue rápido y llegó en perfectas condiciones. Lo volvería a comprar.",
     },
     {
-        imgUrl: "/src/assets/images/instructor/04.jpg",
+        imgUrl: {Instructor04},
         imgAlt: "Miniatura del cliente",
         name: "Charlene Deledesma",
         date: "Publicado el 30 de julio de 2025 a las 07:12 am",

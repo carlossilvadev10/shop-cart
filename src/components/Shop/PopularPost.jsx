@@ -1,32 +1,36 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Blog09 from "../../assets/images/blog/09.jpg";
+import Blog10 from "../../assets/images/blog/10.jpg";
+import Blog11 from "../../assets/images/blog/11.jpg";
+import Blog12 from "../../assets/images/blog/12.jpg";
 
 const title = "Publicaciones del momento";
 const postList = [
     {
         id: 1,
-        imgUrl: "/src/assets/images/blog/10.jpg",
+        imgUrl: {Blog10},
         imgAlt: "Chica leyendo",
         title: "Consejos de lectura para relajarte",
         date: "20 de julio de 2025"
     },
     {
         id: 2,
-        imgUrl: "/src/assets/images/blog/11.jpg",
+        imgUrl: {Blog11},
         imgAlt: "Joven con laptop",
         title: "Cómo comprar en línea de forma segura",
         date: "26 de julio de 2025"
     },
     {
         id: 3,
-        imgUrl: "/src/assets/images/blog/12.jpg",
+        imgUrl: {Blog12},
         imgAlt: "Dos chicas viendo una laptop",
         title: "Tendencias en compras online 2022",
         date: "30 de julio de 2025"
     },
     {
         id: 4,
-        imgUrl: "/src/assets/images/blog/09.jpg",
+        imgUrl: {Blog09},
         imgAlt: "Chica escribiendo en laptop",
         title: "Tips para organizar tu lista de compras",
         date: "05 de agosto de 2025"
