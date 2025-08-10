@@ -171,7 +171,7 @@ const Footer = () => {
                                                 {
                                                     socialList.map((val, i) => (
                                                         <li key = {i}>
-                                                            <a href = {val.siteLink} className = {val.className} style = {{ padding: "0.5rem" }}>
+                                                            <a href = {val.siteLink} className = {val.className}>
                                                                 <i className = {`${val.iconName} p-1`}></i>
                                                             </a>
                                                         </li>

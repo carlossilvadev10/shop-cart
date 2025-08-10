@@ -122,7 +122,7 @@ const Login = () => {
                                 {
                                     socialList.map((item, i) => (
                                         <li key = {i}>
-                                            <a href = {item.siteLink} className = {item.className} style = {{ padding: "0.8rem" }} onClick = {item.className === "google" ? handleRegister : undefined}>
+                                            <a href = {item.siteLink} className = {item.className} onClick = {item.className === "google" ? handleRegister : undefined}>
                                                 <i className = {`${item.iconName}`}></i>
                                             </a>
                                         </li>
