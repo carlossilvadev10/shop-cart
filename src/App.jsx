@@ -1,8 +1,9 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import NavItems from "./components/Shared/NavItems";
-import "./App.css";
 import Footer from "./components/Shared/Footer";
+import ScrollToTop from "./components/Shared/ScrollToTop";
+import "./App.css";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Outlet />
       </div>
       <Footer />
+      <ScrollToTop />
     </>
   )
 }
