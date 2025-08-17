@@ -40,7 +40,7 @@ Sigue estos pasos para clonar y ejecutar el proyecto en tu máquina local:
 
 1. **Clona el repositorio:**
     ```bash
-    git clone https://github.com/carlozzsilva10/shop-cart
+    git clone https://github.com/carlossilvadev10/shop-cart
    ```
 
 2. **Entra en el directorio del proyecto:**
