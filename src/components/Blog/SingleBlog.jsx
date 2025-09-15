@@ -159,7 +159,7 @@ const SingleBlog = () => {
                                             <div className = "right">
                                                 {
                                                     nextBlog ? (
-                                                        <Link to={`/blog/${nextBlog.id}`} className = "prev">
+                                                        <Link to = {`/blog/${nextBlog.id}`} className = "prev">
                                                             <i className = "icofont-double-right"></i> Blog siguiente
                                                         </Link>
                                                     ) : (

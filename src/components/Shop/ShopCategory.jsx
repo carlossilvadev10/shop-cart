@@ -10,7 +10,7 @@ const ShopCategory = ({ filterItem, setItem, menuItems, setProducts, selectedCat
                 </h5>
             </div>
             <div className = "">
-                <button className = {`m-2 ${selectedCategory === "all" ? "bg-warning" : ""}`} onClick={() => { setSelectedCategory("all"); setProducts(Data); }}>
+                <button className = {`m-2 ${selectedCategory === "all" ? "bg-warning" : ""}`} onClick = {() => { setSelectedCategory("all"); setProducts(Data); }}>
                     Todos
                 </button>
                 {
